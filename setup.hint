@@ -1,0 +1,7 @@
+category: Games
+requires: cygwin
+sdesc: "Command line Tic-Tac-Toe"
+ldesc: "Command line Tic-Tac-Toe game with various sized boards."
+
+
+

@@ -1,0 +1,12 @@
+DESCRIPTION="Console tic-tac-toe with enlarged boards"
+HOMEPAGE="http://ttt.sourceforge.net/"
+SRC_URI="mirror://sourceforge/ttt/${P}.tar.gz"
+PATCH_URI="0.11.0-configure.patch"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	# broken
+	rm -f ${D}/usr/bin/connect4.exe
+}
